@@ -12,13 +12,15 @@ from dataclasses import dataclass
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
+import matplotlib.pyplot as plt
 
 
-from src.utils import save_object
+from src.utils import save_object, scatter_plot, box_plot
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import MinMaxScaler
+
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import mean_squared_error
@@ -258,11 +260,15 @@ class ModelTrainer:
                 file_path=self.model_trainer_config.trained_model_file_path,
                 obj=models,
             )
+            scatter_plot(y_test, y_test_pred)
 
             predicted = models.predict(X_test)
             r2_square = r2_score(y_test, predicted)
             mae_score = mean_absolute_error(y_test, predicted)
             mse_score = mean_squared_error(y_test, predicted)
+
+            box_plot(predicted)
+
             return (
                 f"r2_sqaure: {r2_square}",
                 f"Mean Absolute Error(MAE): {mae_score}",
