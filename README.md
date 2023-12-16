@@ -28,8 +28,12 @@ Most features showcase a linear relationship with the target variable 'MEDV'. Ar
 
 The predictive model is implemented in the `src` folder, specifically in the `boston.py` file. The model leverages functions for enhanced modularity.
 
-## Project Structure:
+## Model Evaluation:
 
+We predict the model's Performance and evaluate the model using r square, Mean Absolute Error(MAE) and Mean Squared Error(MSE).<br>
+
+## Project Structure:
+`src/EDA.ipynb`: Contains Exploratory Data Analysis(EDA) in Jupyter notebook.<br>
 `src/boston.py`: Contains the implemented predictive model using functions.<br>
 `src/exceptions.py`: Exception handling function for reuse in the code.<br>
 `src/logger.py`: Logging configuration for improved debugging.<br>
