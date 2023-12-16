@@ -1,9 +1,12 @@
 # END TO END BOSTON HOUSE PRICE PREDICTION 
 
 ## Table of Contents
-- [Problem statement](#problem-statement)
-- [Getting Started]
-  
+- [Problem statement](#problem-statement)<br>
+- [Description](#description)<br>
+- [EDA Conclusion](#exploratory-data-analysis-eda-conclusion)<br>
+- [Model Implementation](#model-implementation)<br>
+- [Project Structure](#project-structure)<br>
+- [References](#references)<br>
 
 ## Problem Statement: 
 The problem revolves around predicting house prices in Boston using various features. The dataset contains information about different factors that might influence house prices, such as the average number of rooms per dwelling, pupil-teacher ratio, and the percentage of the population considered lower status.
