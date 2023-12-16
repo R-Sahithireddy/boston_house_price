@@ -22,10 +22,10 @@ The predictive model is implemented in the `src` folder, specifically in the `bo
 
 ## Project Structure:
 
-`src/boston.py`: Contains the implemented predictive model using functions.
-`src/exceptions.py`: Exception handling function for reuse in the code.
-`src/logger.py`: Logging configuration for improved debugging.
-`src/utils.py`: General utilities for reuse in the code.
+`src/boston.py`: Contains the implemented predictive model using functions.<br>
+`src/exceptions.py`: Exception handling function for reuse in the code.<br>
+`src/logger.py`: Logging configuration for improved debugging.<br>
+`src/utils.py`: General utilities for reuse in the code.<br>
 
 ## References:
 
