@@ -29,6 +29,11 @@ The predictive model is implemented in the `src` folder, specifically in the `bo
 
 ## References:
 
-Dataset Source, "Boston Housing Dataset," https://www.kaggle.com/datasets/vikrishnan/boston-house-prices.
+Dataset Source(BOSTON HOUSING DATASET):  https://www.kaggle.com/datasets/vikrishnan/boston-house-prices.<br>
+#### Notebooks Referred:
+1. https://www.kaggle.com/code/prasadperera/the-boston-housing-dataset<br>
+2. https://github.com/krishnaik06/mlproject<br>
+3. https://github.com/ASHOKKUMAR-K/Machine-Learning-Projects<br>
+
 
 
